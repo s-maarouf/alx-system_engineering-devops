@@ -122,7 +122,7 @@ $ ls /tmp/my_first_directory/
 $
 ```
 
-## 10) [9-firstdirdeletion]()
+## 10) [9-firstdirdeletion](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)
 Delete the directory `my_first_directory` that is in the `/tmp` directory.
 
 Example:
