@@ -4,7 +4,7 @@
 
 Write a script that prints “Hello, World”, followed by a new line to the standard output.
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ ./0-hello_world 
 Hello, World
 julien@ubuntu:/tmp/h$ ./0-hello_world | cat -e
@@ -16,7 +16,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that displays a confused smiley `"(Ôo)'`.
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ ./1-confused_smiley 
 "(Ôo)'
 julien@ubuntu:/tmp/h$ 
@@ -28,7 +28,7 @@ Display the content of the `/etc/passwd` file.
 
 Example:
 
-```sh
+```bash
 $ ./2-hellofile
 ##
 # User Database
@@ -62,7 +62,7 @@ Display the content of `/etc/passwd` and `/etc/hosts`
 
 Example:
 
-```sh
+```bash
 $ ./3-twofiles
 ##
 # User Database
@@ -95,7 +95,7 @@ Display the last 10 lines of `/etc/passwd`
 
 Example:
 
-```sh
+```bash
 $ ./4-lastlines
 _assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
 _coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
@@ -115,7 +115,7 @@ Display the first 10 lines of `/etc/passwd`
 
 Example:
 
-```sh
+```bash
 $ ./5-firstlines
 ##
 # User Database
@@ -138,7 +138,7 @@ The file `iacta` will be in the working directory
 
 * You’re not allowed to use `sed`
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ cat iacta 
 Alea iacta est
 
@@ -163,7 +163,7 @@ julien@ubuntu:/tmp/h$
 
 Write a shell script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.
 
-```sh
+```bash
 julien@ubuntu:~/shell$ ls && ./7-file && ls -l && cat -e \\*
 0-mac_and_cheese 7-file 7-file~ Makefile
 total 20
@@ -180,7 +180,7 @@ julien@ubuntu:~/shell$
 
 Write a script that writes into the file `ls_cwd_content` the result of the command `ls -la`. If the file `ls_cwd_content` already exists, it should be overwritten. If the file `ls_cwd_content` does not exist, create it.
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ ls -la
 total 20
 drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
@@ -214,7 +214,7 @@ Write a script that duplicates the last line of the file `iacta`
 
 * The file `iacta` will be in the working directory
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ cat iacta 
 Alea iacta est
 
@@ -254,7 +254,7 @@ julien@ubuntu:/tmp/h$
 
 Write a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
 
-```sh
+```bash
 julien@ubuntu:/tmp/h$ ls -lR
 .:
 total 24
@@ -298,7 +298,7 @@ Write a script that counts the number of directories and sub-directories in the 
 * The current and parent directories should not be taken into account
 * Hidden directories should be counted
 
-```sh
+```bash
 julien@production-503e7013:~/shell/fun_with_the_shell$ ls -lRa
 .:
 total 32
@@ -349,7 +349,7 @@ Requirements:
 * One file per line
 * Sorted from the newest to the oldest
 
-```sh
+```bash
 alex@ubuntu:/tmp$ ls -l
 total 7
 -rwxr-xr-x 1 501 dialout  32 Sep 27 23:51 0-hello_world
@@ -388,7 +388,7 @@ Create a script that takes a list of words as input and prints only words that a
 * Output format: One line, one word
 * Words should be sorted
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ cat list 
 C#
 C
@@ -427,7 +427,7 @@ julien@ubuntu:/tmp/0x02$
 
 Display lines containing the pattern “root” from the file `/etc/passwd`
 
-```sh
+```bash
 $ ./14-findthatword
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
@@ -439,7 +439,7 @@ $
 
 Display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
-```sh
+```bash
 $ ./15-countthatword
 81
 $
@@ -449,7 +449,7 @@ $
 
 Display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
 
-```sh
+```bash
 $ ./16-whatsnext
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
@@ -468,7 +468,7 @@ $
 
 Display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
 
-```sh
+```bash
 $ ./17-hidethisword
 ##
 # User Database
@@ -489,7 +489,7 @@ Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
 
 * include capital letters as well
 
-```sh
+```bash
 $ ./18-letteronly
 SyslogFacility AUTHPRIV
 AuthorizedKeysFile  .ssh/authorized_keys
@@ -503,7 +503,7 @@ $
 
 Replace all characters `A` and `c` from input to `Z` and `e` respectively.
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ 
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 julien@ubuntu:/tmp/0x02$ 
@@ -513,7 +513,7 @@ julien@ubuntu:/tmp/0x02$
 
 Create a script that removes all letters `c` and `C` from input.
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago 
 hiago
 julien@ubuntu:/tmp/0x02$
@@ -523,7 +523,7 @@ julien@ubuntu:/tmp/0x02$
 
 Write a script that reverse its input.
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse 
 esreveR
 julien@ubuntu:/tmp/0x02$
@@ -535,7 +535,7 @@ Write a script that displays all users and their home directories, sorted by use
 
 * Based on the the `/etc/passwd` file
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -636,7 +636,7 @@ Write a command that finds all empty files and directories in the current direct
 * The listing should end with a new line
 * You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 
-```sh
+```bash
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$ ls -laR
 .:
 total 64
@@ -724,7 +724,7 @@ Write a script that lists all the files with a `.gif` extension in the current d
 * The listing should end with a new line
 * You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
 
-```sh
+```bash
   julien@production-503e7013:~/shell/fun_with_the_shell$ ls -Rla
     .:
     total 28
@@ -778,7 +778,7 @@ Create a script that decodes acrostics that use the first letter of each line.
 * The ‘decoded’ message has to end with a new line
 * You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
 
-```sh
+```bash
 julien@ubuntu:/tmp/0x02$ cat An\ Acrostic 
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
