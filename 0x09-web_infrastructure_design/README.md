@@ -2,7 +2,7 @@
 
 ## Tasks
 
-### [0. Simple web stack]()
+### [0. Simple web stack](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/0-simple_web_stack)
 
 A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29).
 
@@ -32,7 +32,7 @@ Requirements:
 
 <br>
 
-### [1. Distributed web infrastructure]()
+### [1. Distributed web infrastructure](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure)
 
 On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`.
 
@@ -58,7 +58,7 @@ Requirements:
 
 <br>
 
-### [2. Secured and monitored web infrastructure]()
+### [2. Secured and monitored web infrastructure](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure)
 
 On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
 
@@ -82,7 +82,7 @@ Requirements:
 
 <br>
 
-### [3. Scale up]()
+### [3. Scale up](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/3-scale_up)
 
 Readme:
 
