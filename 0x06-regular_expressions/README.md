@@ -2,7 +2,7 @@
 
 ### 0) [Simply matching School](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x06-regular_expressions/0-simply_match_school.rb)
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230828T131112Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e4bdc79bb3f50f22ba23a06a641c4fb0af0dc2cfa24d820db4347cd337d4eb11" alt="Task 0">
+![task0](images/task0.png)
 
 Requirements:
 
@@ -24,7 +24,7 @@ $
 
 ### 1) [Repetition Token #0](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x06-regular_expressions/1-repetition_token_0.rb)
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/e7db3c377d46453588fc84f3a975661d142fee91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230828T131112Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=54e02f51257de081433dda0555dd47a329323a0f6a4985dfd4b1d68c61c6e86e" alt="Task 1">
+![task1](images/task1.png)
 
 Requirements:
 
@@ -33,7 +33,7 @@ Requirements:
 
 ### 2) [Repetition Token #1](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x06-regular_expressions/2-repetition_token_1.rb)
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/c59ff11db195d5cf17d1790a5141ae2f234786d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230828T131112Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=fe44e0651249b5e0020123f7b882fdb5181e8541a242145103e9b073aed0c821" alt="Task 2">
+![task2](images/task2.png)
 
 Requirements:
 
@@ -42,7 +42,7 @@ Requirements:
 
 ### 3) [Repetition Token #2](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x06-regular_expressions/3-repetition_token_2.rb)
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3b6bf4aeca6a0c2de584e7f5d68d11eef57ce205.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230828T131112Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f42804403377e1d8e13fd9364ec2ce2f90461dd44ece837493047a4625bc635f" alt="Task 3">
+![task3](images/task3.png)
 
 Requirements:
 
@@ -51,8 +51,7 @@ Requirements:
 
 ### 4) [Repetition Token #3](https://github.com/s-maarouf/alx-system_engineering-devops/blob/master/0x06-regular_expressions/4-repetition_token_3.rb)
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/f8dbcb9cf5ae569a8645027dc46e81cb372ce28e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230828T131112Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ff1f62db6f3347aa02cac47b0109705de730b9ee192d3e3998fc57a7f7f75c08" alt="Task 4">
-
+![task4](images/task4.png)
 
 Requirements:
 
