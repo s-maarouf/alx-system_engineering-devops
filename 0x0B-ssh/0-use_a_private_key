@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A scipt that uses SSH to connect to a server using a private key located in a file
+
+ssh -i ~/.ssh/school ubuntu@3.85.148.170
