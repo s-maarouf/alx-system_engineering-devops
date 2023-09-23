@@ -1,7 +1,9 @@
 # Connects to a server using SSH
 
-file { '/home/ubuntu/.ssh/config':
-  ensure  => file,
-  content => "Host *\n    IdentityFile ~/.ssh/school\n    PasswordAuthentication no\n",
+file { '~/.ssh/school':
+  ensure  => present
+  content => "Host *
+              IdentityFile ~/.ssh/school
+              PasswordAuthentication no"
 }
 
