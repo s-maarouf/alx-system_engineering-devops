@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Install apache2 and start service on port 8080 and 80 with localhost as servername
+
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
