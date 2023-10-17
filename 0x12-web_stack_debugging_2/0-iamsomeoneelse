@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Change user to input arg
 
-sudo su "$1"
+sudo -u "$1" whoami
