@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """A script that returns information about his/her TODO list
-progress and saves it to a CSV file"""
+progress and saves it to a JSON file"""
 
 import json
 import requests
