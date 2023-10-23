@@ -17,18 +17,10 @@ if __name__ == "__main__":
     response = requests.get(url)
     json_response = response.json()
 
-    total_tasks = 0
-    done_tasks = 0
-    tasks_titles = []
+    user = requests.get(url + "/{}".format(user_id)).json()
+    todos = [t for t in json_response if t.get("userId") == int(user_id)]
+    completed = [t.get("title") for t in todos if t.get("completed") is True]
 
-    for task in json_response:
-        if task.get("userId") == int(user_id):
-            total_tasks += 1
-            if task.get("completed"):
-                done_tasks += 1
-                tasks_titles.append(task.get("title"))
-
-    print("Employee {} is done with tasks({}/{}):"
-          .format(name, done_tasks, total_tasks))
-    for title in tasks_titles:
-        print("\t {}".format(title))
+    print("Employee {} is done with tasks({}/{}):".format(
+        name, len(completed), len(todos)))
+    [print("\t {}".format(c)) for c in completed]
