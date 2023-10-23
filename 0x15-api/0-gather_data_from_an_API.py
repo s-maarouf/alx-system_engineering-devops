@@ -4,7 +4,6 @@
 
 import requests
 import sys
-from sys import argv
 
 
 if __name__ == "__main__":
@@ -20,9 +19,9 @@ if __name__ == "__main__":
     user_data = user_response.json()
     todos_data = todos_response.json()
 
-    employee_name = user_data['name']
+    employee_name = user_data.get('name')
     total_tasks = len(todos_data)
-    done_tasks = len([task for task in todos_data if task['completed']])
+    done_tasks = len([task for task in todos_data if task.get('completed')])
 
     print("Employee {} is done with tasks({}/{}):".format(employee_name,
           done_tasks, total_tasks))
